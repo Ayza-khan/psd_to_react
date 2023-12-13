@@ -1,0 +1,848 @@
+/* FONT QUICKSAND */
+@import url("https://fonts.googleapis.com/css2?family=Lemon&family=Quicksand&display=swap");
+/* FONT GAEGU */
+@import url("https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Rubik:wght@500&display=swap");
+
+@font-face {
+  font-family: "diloworld";
+  src: url(C:/Users/nfc/Documents/project_react/psd/psd-to-react/public/assets/fonts/EricaOne-Regular.ttf);
+}
+
+
+
+body {
+  overflow-x: hidden !important;
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  background-color: #241036;
+}
+
+.navbar__section {
+  background-image: url(C:/Users/nfc/Documents/project_react/psd/psd-to-react/public/assets/img/captain-roll-banner.png);
+  background-size: 100% 100%;
+  height: 85vh;
+  width: 100%;
+  z-index: 11;
+}
+
+.navbar__section nav {
+  background-color: #7794e4;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+  box-shadow: 0px 2px 4px #80a3ff;
+}
+
+
+.header-logo {
+  position: fixed;
+  z-index: 9999999;
+  width: 60px;
+    transform: translate(-50%, 0);
+    top: -10px;
+    left: 50%;
+}
+.header-logo2 {
+  position: fixed;
+  z-index: 9999999;
+  width: 300px;
+    transform: translate(-60%, 0);
+    top: -65px;
+    left: 60%;
+}
+
+.nav-link {
+  color: #0a041b !important;
+  font-weight: bolder;
+  font-size: 15px;
+  margin: 0px 10px;
+}
+.nav-link:hover {
+  transform: translateY(-3px);
+  color: #fff !important;
+  transition: all .3s;
+}
+
+.nav-link2 i {
+  color: #0a041b;
+  font-weight: bolder;
+  font-size: 17px;
+  padding: 0px 14px 0px 14px;
+}
+.nav-link2 i:hover {
+    color: #fff;
+    transition: all .3s;
+}
+
+.roller__text {
+    font-family: "diloworld";
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 16px #0a041b, 0 -8px #0a041b;
+    font-size: 140px;
+  }
+  .banner__captain {
+    font-family: 'Gaegu', cursive;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: 2px 0px 0px #0a041b, 2px 0 0 #0a041b;
+    color: #0a041b;
+  }
+  
+
+
+.paragraph__banner {
+  font-size: 21px;
+  letter-spacing: -1px;
+  line-height: 33px;
+  color: #291d4a;
+  font-weight: 700;
+  font-family: "Quicksand";
+  text-align: center;
+  width: 30%;
+}
+
+.banner__content {
+  padding-top: 7rem;
+  position: relative;
+}
+
+
+/***** Intro Story section *****/
+
+
+.intro__story__section {
+  background-color: #241036;
+}
+.intro__story__section h1 {
+    font-size: 63px;
+    letter-spacing: -2px;
+    line-height: 58px;
+    color: #0a041b;
+    font-weight: 700;
+    font-family: "Gaegu";
+    text-align: center;
+    margin-bottom: 2rem;
+    /* border: 1px solid #0a041b; */
+  }
+  .intro__story__section p {
+    font-size: 18px;
+    color: #fff;
+    margin: 24px 0;
+    opacity: 0.7;
+    font-size: 17px;
+  }
+
+.button__my {
+  width: 300px;
+  height: max-content;
+  cursor: pointer;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 8px;
+}
+.button__my h1 {
+  color: #240f35;
+  font-family: "Gaegu", cursive;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 42px;
+}
+.button__my p {
+  color: #240f35;
+  opacity: 0.6;
+  margin: 0;
+  font-family: "Quicksand", sans-serif !important;
+}
+
+
+
+.img__container {
+  position: relative;
+}
+
+.div__left__img {
+  position: absolute;
+  overflow: hidden;
+  top: 420px;
+  left: -20px;
+}
+.img__left__div {
+  position: relative;
+}
+
+.div__right__img {
+  position: absolute;
+  top: 50px;
+  right: -170px;
+}
+.img__right__div {
+  position: relative;
+}
+.btn__container {
+  position: relative;
+  z-index: 1;
+}
+
+.border__div {
+  position: absolute;
+  height: 90px;
+  width: 300px;
+  left: 12px;
+    top: 24px;
+  border-radius: 12px;
+  background-color: transparent;
+  border: 5px solid #7794e4;
+  z-index: -1;
+}
+
+.border__div2 {
+  position: absolute;
+  height: 90px;
+  width: 300px;
+  left: 12px;
+    top: 24px;
+  border-radius: 12px;
+  background-color: transparent;
+  border: 5px solid #7794e4;
+  z-index: -1;
+}
+
+
+/***** Utility Section *****/
+
+
+.utility__section {
+  background-color: #fff;
+  margin-top: -400px;
+  padding-top: 400px;
+  padding-bottom: 20px;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+.video-section-illustration {
+    position: absolute;
+    top: -100px;
+}
+.video-section-illustration img {
+    width: 100%;
+}
+
+
+.utility__text {
+  padding: 2rem;
+}
+
+.utility__text h1 {
+  font-size: 63px;
+  letter-spacing: -2px;
+  line-height: 58px;
+  color: #0a041b;
+  font-weight: 700;
+  font-family: "Gaegu";
+  text-align: center;
+  margin-bottom: 2rem;
+  /* border: 1px solid #0a041b; */
+}
+.utility__text p {
+  font-size: 18px;
+  color: #241036;
+  font-weight: 700;
+}
+
+/***** Slider section *****/
+
+
+
+.slider__section {
+  background-color: #fff;
+}
+
+.position__123 {
+  position: relative;
+}
+
+
+.img-fluid2 {
+  max-width: 300px;
+  max-height: 200px;
+  /* width: 200px; */
+  margin: 0px 10px 0px 10px;
+  height: 104px;
+}
+.slick-slide {
+  margin: 0 6px;
+}
+
+/***** Game section *****/
+
+
+
+.game__section {
+  background-color: #fff;
+  padding: 1rem 0 22rem;
+}
+
+.game__section h1 {
+  font-size: 63px;
+  letter-spacing: -2px;
+  line-height: 58px;
+  color: #0a041b;
+  font-weight: 700;
+  font-family: "Gaegu";
+  text-align: center;
+  margin: 3rem 0;
+  /* border: 1px solid #0a041b; */
+}
+.game__section p {
+  font-size: 18px;
+  padding: 0 4rem;
+  color: #241036;
+  font-weight: 700;
+}
+
+
+.sec__img {
+  /* z-index: 1; */
+  z-index: unset;
+  width: 100%;
+  margin-top: -22rem;
+}
+.img__sec {
+  position: relative;
+  top: 0px;
+  height: 500px;
+  z-index: 5;
+  width: 1000px;
+}
+
+/***** About Us *****/
+
+.about__uss {
+    position: relative;
+    padding: 4rem 0 16rem;
+}
+.game-section-illustration {
+    position: absolute;
+    top: -250px;
+}
+
+
+.bg__purple {
+  background-color: #240f35;
+  position: relative;
+  z-index: -1;
+}
+
+.bg__purple p {
+  font-size: 17px;
+}
+
+.curvy__image {
+  width: 100%;
+}
+
+/***** FAq *****/
+
+
+.faq__section {
+  background-color: #e7e4ea;
+  z-index: 10;
+  width: 100%;
+  position: relative;
+  padding: 1rem 0 3rem;
+}
+
+.faq__heading h1 {
+    font-family: 'gaegu';
+    color: #0a041b;
+    font-size: 62px;
+}
+
+.faq__heading p {
+    color: #0a041b;
+    font-size: 18px;
+}
+
+
+.faq-illustration {
+    position: absolute;
+    z-index: 2;
+    top: -198px;
+}
+.faq-end-illustration {
+    position: absolute;
+    bottom: -203px;
+    z-index: 999;
+}
+
+.bottom_image {
+  position: relative;
+}
+.bottom_image_2 {
+  position: relative;
+}
+.btm_img_1 {
+  position: absolute;
+    width: 292px;
+    z-index: 9999;
+    left: -64px;
+}
+.btm_img_2 {
+  position: absolute;
+  bottom: auto;
+  right: -50px;
+  height: 300px;
+  top: -360px;
+  z-index: 11;
+}
+
+/***** End FAq *****/
+
+
+
+/***** Our Team *****/
+
+
+.Our__Team {
+  width: 100%;
+  background-color: #fff;
+  padding: 12rem 2rem 0rem;
+}
+.team-01-profile {
+    border-radius : 16px 36px 16px 36px;
+    height: 300px;
+}
+.team-02-profile {
+    border-radius : 16px 36px 16px 36px;
+    height: 300px;
+}
+.team-03-profile {
+    border-radius : 16px 36px 16px 36px;
+    height: 300px;
+}
+.card__heading {
+  font-family: "Gaegu";
+  color: rgb(36, 16, 54);
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.card__heading2 {
+  font-family: "Gaegu";
+  color: #7c92ca;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bolder;
+  text-align: center;
+}
+.card__info {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(36, 16, 54);
+  text-align: center;
+}
+.hakuna {
+  font-size: 48.525px;
+  font-family: "Gaegu";
+  color: rgb(36, 16, 54);
+  font-weight: bold;
+}
+@media (max-width: 425px) {
+  .Our__Team {
+    top: 6685px;
+  }
+}
+
+
+
+/***** Roadmap *****/
+
+
+
+.section__roadmap {
+  /* background-color: #E7E4EA; */
+  background-image: url(C:/Users/nfc/Documents/project_react/psd/psd-to-react/public/assets/img/roadmap_bg.png);
+  width: 100%;
+  margin-top: -10px;
+  padding: 6rem 0 4rem;
+}
+.card__roadmap {
+  border-radius: 12px;
+  padding-bottom: 32px;
+}
+.card__roadmap2 {
+  border-radius: 12px;
+  padding-bottom: 32px;
+}
+.horizontal__line {
+  height: 5px !important;
+  border-radius: 20px;
+  margin-top: -40px;
+  font-weight: bolder;
+  width: 80%;
+  color: blue !important;
+  padding-top: 0px;
+}
+.card_r_info {
+  font-size: 17px;
+  color: rgb(36, 16, 54);
+  /* width: 80%; */
+}
+.card_r_info2 {
+  font-size: 17px;
+  color: rgb(36, 16, 54);
+  /* width: 80%; */
+}
+.card__position {
+  position: absolute;
+  width: 650px;
+  /* top: 50%; */
+  bottom: 30%;
+  /* left: 50px; */
+}
+.card__position2 {
+  position: absolute;
+  width: 650px;
+  top: 5%;
+  bottom: 20%;
+  right: -20px;
+}
+.position_absolute {
+  position: relative;
+}
+@media (max-width: 768px) {
+  .card__position {
+    width: auto;
+    position: relative;
+    left: 0;
+  }
+  .card__position2 {
+    width: auto;
+    position: relative;
+    right: 0;
+    height: max-content !important;
+  }
+}
+@media (max-width: 425px) {
+  .section__roadmap {
+    top: 8040px;
+  }
+}
+
+
+
+
+/***** Footer section *****/
+
+footer {
+  background-image: url(C:/Users/nfc/Documents/project_react/psd/psd-to-react/public/assets/img/footer-background.png);
+  width: 100%;
+  background-size: 100% 100%;
+  height: 80vh;
+  margin-top: -100px;
+  padding-top: 48px;
+  position: relative;
+}
+.footer__content {
+    height: 100%;
+}
+.footer-logo {
+  width: 120px;
+  /* position: absolute;
+  top: 0;
+  transform: translate(-50%, 10px); */
+}
+footer .banner__captain {
+    color: #fff;
+}
+
+.footer-link2 i {
+  color: white;
+  /* font-weight: bolder; */
+  font-size: 29px;
+  padding: 0px 14px 0px 14px;
+}
+
+/* change start here */
+
+.accordion-item h2 {
+    color: #0a041b;
+    text-decoration: none;
+    font-size: 34px !important;
+    font-family: 'Gaegu', cursive;
+}
+.accordion-button {
+  font-size: 32px;
+  font-weight: 700;
+}
+.accordion-button :focus {
+  box-shadow: none !important;
+  border: none;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: #0a041b;
+  box-shadow: none !important;
+  border-bottom: 3px solid #7794e4;
+}
+
+.accordion-body p {
+  font-size: 17px;
+  color: #0a041b;
+}
+
+
+/* 
+.accordion a {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    
+    font-weight: 400;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .accordion a:hover,
+  .accordion a:hover::after {
+    cursor: pointer;
+    color: #0a041b;
+  }
+  
+  .accordion a:hover::after {
+  }
+  
+  .accordion a.active {
+    color: #0a041b;
+    border-bottom: 3px solid #7794e4;
+  }
+  
+  .accordion a::after {
+    font-family: 'Gaegu', cursive;
+    content: "\002B";
+    position: absolute;
+    float: right;
+    right: 1rem;
+    font-size: 4rem;
+    margin-top: -28px;
+    color: #0a041b;
+  }
+  
+  .accordion a.active::after {
+    font-family: 'Gaegu', cursive;
+    content: "-";
+    font-size: 4rem;
+    color: #0a041b;
+  }
+  
+  .accordion .content {
+    display: none;
+    padding: 1rem;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+  }
+  
+  .accordion .content p {
+    font-size: 1rem;
+    font-weight: 300;
+  } */
+  .accordion-item {
+    border-bottom: none;
+    margin-bottom: 12px;
+    box-shadow: 6px 6px 0 #7794e4;
+  } 
+  .accordion-button::after {
+    background-image: url(C:/Users/nfc/Documents/project_react/psd/psd-to-react/public/assets/img/open-faq.png);
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url(C:/Users/nfc/Documents/project_react/psd/psd-to-react/public/assets/img/close-faq.png);
+  }
+
+
+.inner__silhot {
+  margin: 12px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.inner__silhot:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 12px 4px;
+
+}
+.join__whislist {
+  margin: 4rem 0;
+}
+
+.join__whislist a {
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #ffe599;
+}
+
+.join__whislist a:hover {
+  color: #7794e4;
+}
+.Our__Team i {
+  font-size: 24px;
+}
+
+
+
+@media (max-width : 576px) {
+  .navbar__section {
+      background-size: 350% 100%;
+      height: auto;
+      
+  }
+
+  .paragraph__banner {
+      width: 100%;
+      background: rgba(0,0,0,.5);
+      color: #fff;
+  }
+  .intro__story__section  {
+    padding: 1rem 0 5rem;
+  }
+  h1, .game__section h1, .intro__story__section h1 {
+      font-size: 36px;
+  }
+  p {
+      font-size: 17px;
+  }
+  .utility__text {
+      padding: 0px;
+  }
+  .utility__text h1 {
+      font-size: 36px;
+      line-height: 30px;
+  }
+  .game__section p {
+      padding: 0px 0rem;
+  }
+  footer {
+    background-size: 400% 100%;
+    background-position: right;
+  }
+  .roller__text {
+      font-size: 100px;
+  }
+  .img__sec {
+    height: auto;
+    width: 100%;
+  } 
+  .sec__img {
+    margin-top: -6rem;
+  }
+  .game__section {
+    padding: 3rem 0 6rem;
+  }
+  .about__uss {
+    padding: 4rem 0 2rem;
+  }
+  .accordion a {
+    font-size: 17px !important;
+  }
+  .card__roadmap {
+    height: auto !important;
+  }
+  .faq__section {
+    padding: 3rem 0 3rem;
+  }
+  .Our__Team {
+    padding: 0 2rem 0;
+  }
+  .section__roadmap {
+    padding: 0rem 0 1rem;
+  }
+  .join__whislist {
+    margin: 4rem 0;
+    padding-bottom: 1rem;
+  }
+  
+  .join__whislist a {
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 700;
+  }
+}
+
+
+@media (max-width : 1024px) {
+  .div__right__img {
+    right: 0;
+    bottom: -130px;
+    top: auto;
+  }
+  .div__right__img .img__right__div {
+    width: 150px;
+    height: 150px;
+  }
+  .div__left__img .img__left__div {
+    width: 150px;
+    height: 150px;
+  }
+  .div__left__img {
+    top: auto;
+    bottom: -140px;
+  }
+  .btm_img_1 {
+    width: 200px;
+  }
+  .btm_img_2 {
+    height: 200px;
+    top: -130px;
+    right: 0px;
+  }
+}
+
+
+
+/* .intro__before {
+  position: relative;
+}
+
+.intro__before::before {
+  content: "";
+  background-color: red;
+  width: 12px;
+  height: 52px;
+  position: absolute;
+  transition: all .5s;
+}
+
+.intro__before::after {
+  content: "";
+  background-color: red;
+  width: 0px;
+  height: 2px;
+  top: 12px;
+  left: 0;
+  position: absolute;
+}
+
+.intro__before:hover::after {
+  width: 250px;
+  transition: all .5s;
+}
+
+.intro__before:hover::before {
+  height: 0px;
+  transition: all .4s;
+} */
+
+.card_1, .card_2, .card_3, .card_4, .card_5 {
+  text-align: center;
+}
